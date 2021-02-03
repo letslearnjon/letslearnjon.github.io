@@ -1,0 +1,240 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.home{
+     height: 100vh;
+     background-image: linear-gradient(#08202034,rgba(0,0,0,0.6)),url(reg.jpeg);
+     background-position: center;
+     background-size: cover;
+     overflow-x: hidden;
+     position: relative;
+
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+    
+    
+}
+.loginstyle :hover{
+    color: rgb(187, 166, 187);
+    background: green;
+    border-radius: 20%;
+    margin-bottom: 50%;
+}
+
+.nav-logo img{
+    width: 230px;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px ;
+    font-weight: bold;
+
+}
+
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links ul li:hover{
+    color: rgb(69, 121, 10);
+}
+.welcome{
+    margin:40px 130px;
+    color: #fff;
+}
+.welcome h1{
+    font-size: 60px;
+}
+.welcome h1 span{
+    color: rgb(0, 238, 255);
+}
+.contact{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.contact button{
+    font-size: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: rgb(16, 78, 58);
+}
+.contact button a{
+    text-decoration: none;
+    color: rgb(223, 223, 23);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.contact button a:hover{
+    color: rgb(109, 21, 21);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+
+}
+.open{
+    font-size: 0px;
+    
+}
+.footer{
+    background: linear-gradient(rgb(0, 0,0.9),rgb(0, 0, 0.5));
+    color: rgb(243, 229, 229);
+    text-decoration: none;
+}
+.footer hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+
+}
+.f-b{
+    font-size: 25px;
+    
+}
+
+.f-b a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.f-a li{
+    padding-top: 10px;
+}
+.copy{
+    text-align: center;
+    margin-top: 30px;
+    height: 40px;
+    font-weight: light;
+}
+.copy a{
+    color: rgba(14, 187, 66, 0.555);
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.f-a li:hover{
+    color: crimson;
+}
+.close{
+    font-size: 0;
+}
+
+.container{
+    max-width: 1200px;
+    background: #fff;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+     width: 390px;
+     float: left;
+     margin: 5px;
+     border: 1px solid #000;
+}
+.gallery img:hover{
+    opacity: 0.9;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.desc{
+    background: rgb(212, 164, 164);
+   font-size: 40px;
+    
+}
+
+
+
+@media (max-width: 660px){
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+  
+    .home{
+        background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.63)), url(bg1.jpg);
+    }
+    
+    .welcome{
+        margin:10px 70px;
+    }
+    .welcome h1{
+        font-size: 45px;
+    }
+    .welcome h1 span{
+        color: rgb(126, 168, 26);
+    }
+    .contact button{
+        font-size: 29px;
+        border: 1px solid #000;     
+        border-radius: 11px;}
+    .nav-bar{
+        display: flex;
+        padding: 20px 60px;
+        background-color: #000;
+    }
+    .nav-logo img{
+        width: 150px;
+        margin: 1px 0px ;
+    }
+    
+   .f-b{
+    font-size: 15px;
+   }
+    .nav-links{
+        background: #000;
+        top: 94px;
+        right: 0;
+        height: 100%;
+        position: absolute;
+        text-align: left;
+        overflow-x: hidden;
+        width: 0;
+        transition: 0.9s;
+        padding: 0px;
+
+    }
+    .nav-links ul{
+        display: block;
+        
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .open{
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        margin: 0px  80px;
+        cursor: pointer;
+       
+    }
+    .open:hover{
+        color:purple;
+    }
+    .close{
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        top: 5px;
+        left: 9px;
+    }
+    .logo img{  
+        margin: 5px;
+        width: 170px;
+    }
+    
+}
